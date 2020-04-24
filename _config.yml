@@ -1,1 +1,13 @@
 theme: jekyll-theme-midnight
+title: Flo's Blog
+email: rohm.florian@googlemail.com
+description: No real topic at the moment but expect something around Rust and Numerics
+url: https://florianrohm.github.io/
+github_username: FlorianRohm
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
