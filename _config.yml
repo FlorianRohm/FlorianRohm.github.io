@@ -1,1 +1,25 @@
 theme: jekyll-theme-midnight
+title: Flo's Blog
+email: rohm.florian@googlemail.com
+description: No real topic at the moment but expect something around Rust and Numerics
+url: https://florianrohm.github.io/
+github_username: FlorianRohm
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  offset: 2
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
