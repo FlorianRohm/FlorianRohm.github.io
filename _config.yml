@@ -1,17 +1,21 @@
-theme: jekyll-theme-midnight
 title: Flo's Blog
 email: rohm.florian@googlemail.com
 description: No real topic at the moment but expect something around Rust and Numerics
 url: https://florianrohm.github.io/
 github_username: FlorianRohm
+markdown: kramdown
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
 
+
+version: 1.0
+github.repo: https://github.com/FlorianRohm/FlorianRohm.github.io
 
 # Pagination Settings
 pagination:
